@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Explore your liver</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="css/liver.css"  media="screen"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"> </script>
+	<script type="text/javascript" src="js/liver.js"> </script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Explore your liver</h1>
+		<h2>Move your mouse over the liver and see what's inside!</h2>
+
+		<!--####### THE COMPLETE LIVEr-->
+			<div id="map-container">
+			
+			<div class="rahmen">
+				<div class="border" id="border1"></div>
+				<div class="border" id="border2"></div>
+				<div class="border" id="border3"></div>
+			</div>
+		
+		<!-- image map -->
+			<div class="backgroundimage">
+					<img src='img/liver-illustration.png' width='735' height='473' border='0' alt='the whole liver' usemap='#regionMapView' class='map' />
+						<map name='regionMapView' id='regionMapView'>
+									<area title="leber1" alt="liver1" href="#" coords="442,91,577,171" id="leber1" shape="rect"/>
+									<area title="leber2" alt="liver2" href="#" coords="118,98,299,253" id="leber2" shape="rect"/>
+									<area title="mensch" alt="human" href="#" coords="531,282,643,448" id="human" shape="rect"/>
+						</map>
+					
+			</div>		
+		<!--hover image -->
+				<div id="hovereffect">
+					<div class="region leber1-map" id="leber1"></div>
+						
+					<div class="region human-map" id="human"></div>		
+							
+					<div class="region leber2-map" id="leber2"></div> 
+					
+				</div>
+
+		<!-- informationboxes -->			
+							<div class="onclickInformation" id="leber1-box">
+								<span class="close">CLOSE  X</span>
+							<!--########################################## TOGGLE-->	
+							<div class="slide">
+							<div class="button"></div><img align="middle" src="img/thumbnail/leber_echt.jpg" alt="real liver small"/><a href="#">die echte Leber</a></div>
+								<div class=" slidebox" id="infoextra">
+									<img src="img/leber_echt.jpg" alt="real liver big"/>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									
+										<ul id="list1">
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver kjdlöfajsdlk</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver ajsdfljödsljf</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver iuqwoeu</a></li>
+										</ul>
+										
+										<ul id="list2">
+											<li><a target="_blank" href="http://www.virtual-liver.de/">hdslgfkjhfdlkgjh</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver zweite liste</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">ganz rechts okay</a></li>
+										</ul>
+							
+								</div>
+							<div class="slide">
+							<div class="button"></div><img src="img/thumbnail/liver-illustration.png" alt="liver details small"/><a href="#">die leber illustration</a></div>
+								<div class=" slidebox" id="infoextra2">
+									<img src="img/leber_echt.jpg" alt="liver details big"/>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+									et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+									ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+									eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+									mollit anim id est laborum
+									
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver kjdlöfajsdlk</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver ajsdfljödsljf</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver iuqwoeu</a>
+								</div>
+								
+							<div class="slide">
+							<div class="button"></div><img src="img/thumbnail/leber.jpg" alt="liver small"/><a href="#">die leber leber</a></div>
+								<div class=" slidebox" id="infoextra3">
+									<img src="img/leber_echt.jpg" alt="liver big"/>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+									velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+									in culpa qui officia deserunt mollit anim id est laborum
+								
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver kjdlöfajsdlk</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver ajsdfljödsljf</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver iuqwoeu</a>
+								</div>
+							
+							
+							</div>
+							
+		
+						
+							
+							<div class="onclickInformation" id="human-box">
+							<span class="close">CLOSE  X</span>
+							<div class="slide">
+							<div class="button"></div><img align="middle" src="img/thumbnail/leber_echt.jpg" alt="real liver small"/><a href="#">homo sapiens</a></div>
+								<div class=" slidebox" id="infoextra4">
+									<img src="img/leber_echt.jpg" alt="real liver big"/>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									
+										<ul id="list1">
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver kjdlöfajsdlk</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver ajsdfljödsljf</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver iuqwoeu</a></li>
+										</ul>
+										
+										<ul id="list2">
+											<li><a target="_blank" href="http://www.virtual-liver.de/">hdslgfkjhfdlkgjh</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver zweite liste</a></li>
+											<li><a target="_blank" href="http://www.virtual-liver.de/">ganz rechts okay</a></li>
+										</ul>
+							
+								</div>
+							<div class="slide"><div class="button"></div><img src="img/thumbnail/liver-illustration.png" alt="liver details small"/><a href="#">die leber illustration</a></div>
+								<div class=" slidebox" id="infoextra5">
+									<img src="img/leber_echt.jpg" alt="liver details big"/>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+									et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+									ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+									eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+									mollit anim id est laborum
+									
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver kjdlöfajsdlk</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver ajsdfljödsljf</a>
+									<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver iuqwoeu</a>
+								</div>
+							</div>
+							
+							
+							<div class="onclickInformation" id="leber2-box">
+							
+							<span class="close">CLOSE  X</span>
+								eine echte Leber
+									Ich habe ein bis zwei sehr wichtige Sätze zuerzählen.
+									Das ist der zweite Satz.ich habe infos in dieser box
+								<p id="equation"> eins minus plus drei = gewonnen</p>
+							
+								<a target="_blank" href="http://www.virtual-liver.de/">Virtual Liver</a>
+							</div>
+						
+				
+			</div>	
+	</div>
+
+
+	
+
+</body>
+</html>
